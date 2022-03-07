@@ -1,0 +1,22 @@
+*{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+body{
+  width: 80%;
+}
+
+.riga::after{
+  content: '';
+  display: table;
+  clear both;
+ }
+
+ .immagine img{
+   width: 50%;
+ }
+
+.immagine{
+  float: left;
+}
