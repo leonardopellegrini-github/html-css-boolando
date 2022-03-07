@@ -5,6 +5,7 @@
 
 body{
   width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .riga::after{
@@ -14,9 +15,23 @@ body{
  }
 
  .immagine img{
-   width: 50%;
+   width: 100%;
  }
 
 .immagine{
   float: left;
+  width: 30%;
+  margin: 10px;
+  position: relative;
+}
+
+.cuore{
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
 }
